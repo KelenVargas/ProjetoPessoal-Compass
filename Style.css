@@ -1,0 +1,49 @@
+body{
+	background: #BBBBBB /* deixou a page toda cinza*/
+}
+
+nav a{
+	text-transform: uppercase; /*Aqui eu coloquei em maiusculo o meu link de navegação - Resenhas dos Livros*/
+	font-weight:bold ; /* coloquei a minha fonte do link de navegação em negrito */
+	color: darkred;/* mudei a cor que apareçe visualmente */
+	font-size: 25px;/* aqui eu coloquei uma fonte maior para aparecer */
+}
+
+#Livro{
+	position: relative;
+	width: 100%; /*Aqui a imagem irá ocupar 100% da minha tela*/
+	margin: 0 auto;
+	height: 300px;
+
+}
+
+
+.LeituraAnual{
+	font-size: 50px;
+	color: brown;/* deixei  a cor marrom aonde estava escrito Leitura anual*/
+	height: 55px;
+	text-align: center;
+	margin: 0 auto;
+
+
+}
+.frase2{
+text-align: center;
+font-size:25px ;
+}
+
+.Leitora{
+	width: 30%;
+
+}
+
+ul {
+	display: inline-block; /*na minha lista eu consegui deixar ao lado dela uma imagem*/
+	vertical-align: top; /*alinhado na linha de cima*/
+	width: 30% ;
+	margin-right: 20%; /*espaçamento externo para a direita*/
+
+
+}
+
+
